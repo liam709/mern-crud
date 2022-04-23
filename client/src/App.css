@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(95, 88, 74, 0.356);
+}
+
+.Inputs {
+  height: 400px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Inputs input {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.Inputs button {
+  width: 150px;
+  height: 50px;
+  background-color: green;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.user {
+  width: 500px;
+  height: 70px;
+  background-color: rgb(161, 151, 139);
+  display: flex;
+  margin: 15px;
+}
+
+.listOfUsers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user h3 {
+  margin-left: 15px;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.userContainer button{
+  width:50px;
+  height:50px;
+  margin-top: 20px;
+}
