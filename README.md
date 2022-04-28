@@ -1,14 +1,14 @@
 # mern-crud
-How to run: \
-In VS code project main branch: \
+How to run: 
+In VS code project main branch: 
 npm init -y
-npm install \
+npm install 
 
-Run the backend: \
-cd server \
-node server.js \
+Run the backend: 
+cd server 
+node server.js 
 
-Run the frontend: \
+Run the frontend: 
 cd client
 npm start
 
